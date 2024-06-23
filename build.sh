@@ -88,7 +88,7 @@ build_llvm() {
 	CC=clang CXX=clang++ cmake --build llvm-build
 
 	# Install LLVM
-	CC=clang CXX=clang++ cmake --build llvm-build --target install-distribution
+	CC=clang CXX=clang++ cmake --build llvm-build --target install
 }
 
 case $script_action in
